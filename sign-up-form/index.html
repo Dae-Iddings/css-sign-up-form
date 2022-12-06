@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="imageSide">
+    <div class="logoContainer">
+        <img class="heartImg" src="icon-g783466d6c_640.png" alt="A black heart">
+        <h1 class="heartArt">Heart Art</h1>
+    </div>
+    <div class="imgCredit">
+        <p>Photo by <a href="https://unsplash.com/@supergios?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonny Gios</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+        <p>Image by <a href="https://pixabay.com/users/alexey_hulsov-388655/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2445095">Alexey Hulsov</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2445095">Pixabay</a></p>
+    </div>
+</div>
+<div class="formSide">
+   <div class="explinationContainer">
+    <p class="explination">This is not a real online service. You need our product. What is it? I don't know, but it will change your life. Fill out the form for more info.</p>
+    <p class="explination">Come on you <i>know </i>you want to</p>
+</div>
+       <form action="example.com/path" method="post">
+        <div class="formContainer">
+            <h2 class="formTitle">Let's Go!</h2>
+        <div class="formFlex">
+            <div class="leftForm">
+            <div class="singleQuestion">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Jane">
+            </div>
+            <div class="singleQuestion">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="janedoe@mail.com">
+            </div>
+            <div class="singleQuestion">
+                <label for="password">Password *</label>
+                <input type="password" name="password" id="password" required minlength="6">
+            </div>
+        </div>
+        <div class="rightForm">
+            <div class="singleQuestion">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Doe">
+            </div class="singleQuestion">
+            <div class="singleQuestion">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+            </div>
+            <div class="singleQuestion">
+                <label for="confirmPassword">Confirm Password *</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" required minlength="6">
+            </div>
+        </div>
+    </div>
+        </div>
+        <button>Create Account</button>
+       </form>
+    <p class="bottomText">Already have an account <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Login</a></p>
+</div>
+</div>
+</body>
+</html>
